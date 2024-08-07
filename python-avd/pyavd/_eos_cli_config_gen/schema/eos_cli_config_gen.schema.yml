@@ -9257,6 +9257,8 @@ keys:
               key:
                 type: str
                 description: Encrypted password.
+        mac_timestamp_header:
+          type: bool
         flow_tracker:
           type: dict
           keys:
